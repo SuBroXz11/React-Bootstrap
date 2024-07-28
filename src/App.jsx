@@ -1,9 +1,10 @@
+import Grid from "./components/Grid";
+
 function App() {
   return (
-    <div className="container">
-      <h1 className="text-center">Hello, Bootstrap!</h1>
-      <button className="btn btn-primary">Click Me</button>
-    </div>
+    <>
+      <Grid />
+    </>
   );
 }
 
